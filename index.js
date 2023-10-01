@@ -3,7 +3,7 @@ function search(){
     let a; // Автор
     let f = 0; // Автор не найден
     a = prompt("Введите фамилию автора","Чехов");
-    const divelem = document.querySelector('div');
+    const divelem = document.querySelector('.table');
     const table = document.createElement("table");
     table.border = '1';
     divelem.append(table);
@@ -33,7 +33,7 @@ function search(){
     }
 }
 function contentsL(){
-    const divelem = document.querySelector('div');
+    const divelem = document.querySelector('.table');
     const table = document.createElement("table");
     table.border = '1';
     divelem.append(table);
